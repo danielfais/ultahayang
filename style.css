@@ -88,3 +88,18 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.gallery-item {
+    width: 300px; /* Lebar tetap untuk item galeri */
+    height: 300px; /* Tinggi tetap untuk item galeri */
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.gallery-item img {
+    width: 100%; /* Memastikan gambar memenuhi lebar item */
+    height: 100%; /* Memastikan gambar memenuhi tinggi item */
+    object-fit: cover; /* Memastikan gambar terpotong secara proporsional tanpa distorsi */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
